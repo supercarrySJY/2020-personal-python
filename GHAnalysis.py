@@ -1,8 +1,6 @@
 import json
 import os
 import argparse
-
-
 class Data:
     def __init__(self, dict_address: int = None, reload: int = 0):
         if reload == 1:
